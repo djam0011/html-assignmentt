@@ -1,0 +1,61 @@
+
+/* base font size for the body*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Inheritance */
+}
+
+/*Header and footer background color */
+header,footer {
+    background: #e2bcbc; /* same background for both*/
+    padding: 10px;
+}
+
+/*Class selector for main heading*/
+.site-title {
+    color: rgb(58, 57, 50); /*coler text changed */
+}
+
+/* Id selector for the image */
+#my-photo {
+    box-shadow: 0 2px 2px 1px black; /*box-shadow*/
+}
+
+/* nth-child selector for odd list items */
+ul li:nth-child(odd) {
+    background: #e0e0e0; /* background for odd items */
+}
+
+/*change the bullet list to squares */
+ul {
+    list-style-type: square; /*squares for bullet points*/
+}
+
+/*removed bullets from navigation */
+nav ul {
+    list-style: none; /* no bullets*/
+    padding: 0;
+}
+
+/*Link styles */
+a {
+    text-decoration: none; /* removed underline*/
+    background: #ada692; /*background for links*/
+    color: white; /*text color*/
+    padding: 8px 12px; /*padding for links*/
+    border: 1px; color: antiquewhite; /*border for links*/
+    border-radius:4px; /*rounded corners*/
+    transition: background-color 0.3s; /*smooth transition*/
+}
+
+/*changed background color on hover*/
+a:hover, a:focus {
+    background: brown; 
+}
+
+/*style for the footer*/
+footer {
+    text-align: center;
+    padding:10px;
+}
+
